@@ -1,0 +1,33 @@
+html {
+  font-size: 16px;
+}
+
+input {
+  border-radius: 4px;
+  position: relative;
+  background-color: transparent;
+  border: 1px solid #ced4da;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+input :focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+label {
+  cursor: pointer;
+}
+
+div.error {
+  white-space: pre-wrap;
+  font-size: 14px;
+  color: red;
+}
+
+textarea {
+  font-size: 14px;
+  border-radius: 4px;
+  width: 100%;
+}
